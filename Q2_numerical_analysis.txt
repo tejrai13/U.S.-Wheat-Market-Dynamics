@@ -1,0 +1,16 @@
+================ Q2.1 Numerical Results ================
+
+Correlation coefficient between average temperature and price: -0.25
+P-value of the correlation: 0.153
+
+
+================ Q2.2 Time Series Numerical Analysis ================
+
+Trend Mean: 4.92984126984127
+Trend Standard Deviation: 0.18926160779160275
+Seasonal Amplitude: 0.2007291666666664
+Residual Mean: 0.0023263888888893003
+Residual Standard Deviation: 0.18938774251225685
+
+Ljung-Box test statistic: 38.52545182719918
+Ljung-Box test p-value: 0.00012595046687988244

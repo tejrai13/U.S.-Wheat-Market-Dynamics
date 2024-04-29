@@ -1,0 +1,58 @@
+Exports Model Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         Domestic Price   R-squared:                       0.647
+Model:                            OLS   Adj. R-squared:                  0.471
+Method:                 Least Squares   F-statistic:                     3.667
+Date:                Sun, 28 Apr 2024   Prob (F-statistic):              0.196
+Time:                        23:47:10   Log-Likelihood:                -4.8407
+No. Observations:                   4   AIC:                             13.68
+Df Residuals:                       2   BIC:                             12.45
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     15.4494      4.371      3.535      0.072      -3.356      34.255
+Exports_MillionBushels    -0.0102      0.005     -1.915      0.196      -0.033       0.013
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.257
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.250
+Skew:                          -0.015   Prob(JB):                        0.882
+Kurtosis:                       1.775   Cond. No.                     6.26e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.26e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Foreign Price Model Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         Domestic Price   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 3.320e+05
+Date:                Sun, 28 Apr 2024   Prob (F-statistic):           3.01e-06
+Time:                        23:47:10   Log-Likelihood:                 17.116
+No. Observations:                   4   AIC:                            -30.23
+Df Residuals:                       2   BIC:                            -31.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const            -0.0471      0.013     -3.707      0.066      -0.102       0.008
+Foreign Price     1.0067      0.002    576.154      0.000       0.999       1.014
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.429
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.203
+Skew:                           0.121   Prob(JB):                        0.904
+Kurtosis:                       1.924   Cond. No.                         39.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
